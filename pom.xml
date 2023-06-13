@@ -45,4 +45,12 @@
             <version>2.8.5</version>
         </dependency>
     </dependencies>
+         
+         <distributionManagement>
+                  <repository>
+                           <id>github</id>
+                           <name>Github Packages</name>
+                           <url>https://maven.pkg.github.com/SulthanFahrein/UAS_ConfigMaster_MKPL</url>
+                  </repository>
+         </distributionManagement>
 </project>
