@@ -176,9 +176,8 @@ public class SubtitleDownloader {
             }
             flag = false;
         }
-        System.out.println("\nMovie: " + movieName);
-
-        // HTML Content of all Movies matching the movie name
+        System.out.println("\nMovie: " + m
+        // HTML Content of all Movies  the movie name
         Elements elements = getSearchResults(movieName);
 
         // If the result is empty, Ask the User to input the Movie name
@@ -452,6 +451,8 @@ public class SubtitleDownloader {
         String movieName = element.select("h3.media-heading").text();
         String year = element.select("span.movinfo-section").first().text().substring(0, 4);
         System.out.println(n + ". " + movieName + " " + year);
+
+        
     }
 
 
