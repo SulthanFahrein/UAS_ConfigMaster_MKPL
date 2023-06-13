@@ -254,6 +254,9 @@ public class SubtitleDownloader {
         // Download and Extract the zip to get the Subtitle
         downloadSubtitle(downloadSubtitleUrl, movieFolder);
         System.out.println("\nSuccessfully downloaded Subtitle for Movie: " + movieName + "\n");
+        System.out.println("\nSuccessfully downloaded Subtitle for Movie: " + movieName + "\n");
+        System.out.println("\nSuccessfully downloaded Subtitle for Movie: " + movieName + "\n");
+        System.out.println("\nSuccessfully downloaded Subtitle for Movie: " + movieName + "\n");
         System.out.println("---------------------------------------------------------------" +
                 "---------------------------------------------------\n");
         return true;
