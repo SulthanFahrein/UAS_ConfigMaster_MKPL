@@ -232,6 +232,10 @@ public class SubtitleDownloader {
         }
         System.out.println("Movie URL: " + movieUrl);
         System.out.println("Subtitle URL: " + subtitleUrl);
+        System.out.println("Subtitle URL: " + subtitleUrl);
+        System.out.println("Subtitle URL: " + subtitleUrl);
+        System.out.println("Subtitle URL: " + subtitleUrl);
+        System.out.println("Subtitle URL: " + subtitleUrl);
 
         // Download subtitle URL is same as Subtitle URL except /subtitles changes to /subtitle with ".zip" appended
         String downloadSubtitleUrl = subtitleUrl.replace("/subtitles", "/subtitle") + ".zip";
